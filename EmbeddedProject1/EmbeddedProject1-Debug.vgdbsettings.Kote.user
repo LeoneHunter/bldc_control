@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<VisualGDBUserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UserDefinedVariableValues />
+  <DebugPreferences xsi:type="com.visualgdb.debug.embedded.preferences">
+    <CatchpointConfiguration>
+      <Exec>false</Exec>
+      <Fork>false</Fork>
+      <Vfork>false</Vfork>
+      <Syscalls />
+      <CXXCatchpoints />
+    </CatchpointConfiguration>
+    <LiveWatches>
+      <LiveWatch>
+        <Expression>Id_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>Iq_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>Id_ref_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>Iq_ref_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>ia_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>ib_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>ic_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+      <LiveWatch>
+        <Expression>speed_est_buffer</Expression>
+        <Settings xsi:type="GraphVisualWatchSettings">
+          <Type>Float32</Type>
+          <ElementCount>1000</ElementCount>
+        </Settings>
+        <VisualizerID>com.sysprogs.visualwatch.graph</VisualizerID>
+      </LiveWatch>
+    </LiveWatches>
+    <MaskInterruptsWhileStepping>false</MaskInterruptsWhileStepping>
+    <MemoryWindowPreferences>
+      <MemoryWindowPreferences>
+        <SymbolicMode>true</SymbolicMode>
+        <TakeAddressMode>false</TakeAddressMode>
+        <Format>
+          <DataWidth>OneByte</DataWidth>
+          <DataFormat>Hexadecimal</DataFormat>
+          <TextFormat>ANSI</TextFormat>
+        </Format>
+        <LiveMemorySettings>
+          <Enabled>false</Enabled>
+          <BreakOnChanges>false</BreakOnChanges>
+          <AutoRefresh>false</AutoRefresh>
+          <RefreshTimeout>0</RefreshTimeout>
+        </LiveMemorySettings>
+        <ShowStatusBar>true</ShowStatusBar>
+        <DisplaySymbols>false</DisplaySymbols>
+      </MemoryWindowPreferences>
+    </MemoryWindowPreferences>
+    <FavoriteEmbeddedRegisters />
+    <LiveVariables />
+    <NestedLiveVariableSettings />
+  </DebugPreferences>
+</VisualGDBUserPreferences>
